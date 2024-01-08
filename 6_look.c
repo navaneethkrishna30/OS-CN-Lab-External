@@ -21,9 +21,11 @@ int main() {
 
     printf("Enter total disk size\n");
     scanf("%d", &size);
+
     size -= 1; // since size is calculated from 0-199 not 1-200
 
     qsort(requests, n, sizeof(int), compare_function); // sorts the requests array in ascending order
+
 
     // Scan to the right)
     for (i = 0; i < n; i++) {
@@ -32,11 +34,6 @@ int main() {
             initial = requests[i];
         }
     }
-
-    // Move to the ending position
-    TotalHeadMovement += abs(size - initial);
-    initial = size;
-
 
     // Scan to the left)
     for (i = n - 1; i >= 0; i--) {
