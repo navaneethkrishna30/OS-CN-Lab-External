@@ -1,4 +1,4 @@
-OS LAB
+OS LAB\
 1 - CPU scheduling - FCFS, Round robin\
 2 - Memory allocation - Best fit\
 3 - File allocation - indexing \
