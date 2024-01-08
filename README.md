@@ -1,3 +1,5 @@
+shortlink: http://tinyurl.com/59pyykms
+
 OS LAB\
 1 - CPU scheduling - FCFS, Round robin\
 2 - Memory allocation - Best fit\
@@ -7,4 +9,10 @@ OS LAB\
 6 - Disk scheduling - FCFS, SCAN, LOOK
 
 
-CN LAB
+CN LAB\
+1 - Char stuffing and Bit stuffing\
+2 - CRC\
+3 - Networking Commands\
+4 - C2C connection\
+5 - FTP\
+6 - Djikstra
