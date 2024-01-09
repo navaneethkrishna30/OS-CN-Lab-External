@@ -1,4 +1,4 @@
-shortlink: http://tinyurl.com/59pyykms
+shorter link to this repository: http://tinyurl.com/59pyykms
 
 OS LAB\
 1 - CPU scheduling - FCFS, Round robin\
