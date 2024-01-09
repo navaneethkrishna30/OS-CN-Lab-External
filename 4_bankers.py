@@ -48,3 +48,48 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+Sample Output
+
+number of processes : 5
+number of resources : 4
+maximum resources : 8 5 9 7
+
+-- allocated resources for each process --
+process 1 : 2 0 1 1
+process 2 : 0 1 2 1
+process 3 : 4 0 0 3
+process 4 : 0 2 1 0
+process 5 : 1 0 3 0
+
+-- maximum resources for each process --
+process 1 : 3 2 1 4
+process 2 : 0 2 5 2
+process 3 : 5 1 0 5
+process 4 : 1 5 3 0
+process 5 : 3 0 3 3
+
+total allocated resources : [7, 3, 7, 5]
+total available resources : [1, 2, 2, 2]
+
+process 3 is executing
+the process is in a safe state.
+available resources : [5, 2, 2, 5]
+
+process 1 is executing
+the process is in a safe state.
+available resources : [7, 2, 3, 6]
+
+process 2 is executing
+the process is in a safe state.
+available resources : [7, 3, 5, 7]
+
+process 4 is executing
+the process is in a safe state.
+available resources : [7, 5, 6, 7]
+
+process 5 is executing
+the process is in a safe state.
+available resources : [8, 5, 9, 7]
+'''
