@@ -14,5 +14,5 @@ CN LAB\
 2 - CRC\
 3 - Networking Commands\
 4 - C2C connection\
-5 - FTP\
+5 - FTP - https://youtu.be/UE41J3zHAcE\
 6 - Djikstra
