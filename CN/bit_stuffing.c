@@ -46,7 +46,6 @@ void main(){
 
     printf("String stuffed:\n");
 
-
     for(int i=0; i<idx+1; i++){
         printf("%d", a[i]);
     }
