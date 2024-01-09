@@ -5,17 +5,17 @@ main() {
     for (i = 0; i < 50; i++)
         f[i] = 0;
     x: printf("enter index block\t");
-    scanf("%d", & amp; p);
+    scanf("%d", &p);
     if (f[p] == 0) {
         f[p] = 1;
         printf("enter no of files on index\t");
-        scanf("%d", & amp; n);
+        scanf("%d", &n);
     } else {
         printf("Block already allocated\n");
         goto x;
     }
     for (i = 0; i < n; i++)
-        scanf("%d", & amp; inde[i]);
+        scanf("%d", &inde[i]);
     for (i = 0; i < n; i++)
         if (f[inde[i]] == 1) {
 
@@ -29,7 +29,7 @@ main() {
     for (k = 0; k < n; k++)
         printf("\n %d->%d:%d", p, inde[k], f[inde[k]]);
     printf(" Enter 1 to enter more files and 0 to exit\t");
-    scanf("%d", & amp; c);
+    scanf("%d", &c);
     if (c == 1)
         goto x;
     else
